@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NumCode</title>
+        <link rel="icon" type="image/x-icon" href="assets/images/logo.svg">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand">
+    </head>
+
+    <body>
+
+        <header>
+            <img src="assets/images/logo.svg" alt="Logo" class="logo">
+            <h1><a href="#">NumCode</a></h1>
+        </header>
+
+        <main>
+
+            <h1>
+                Number Patterns
+            </h1>
+
+            <p>
+                Are humans capable of thinking of <span style="font-style: italic;">truly</span> random numbers?
+                I don't think so. I trained a pattern-finding statistical model ('AI') to determine if a number
+                you entered is actually random or you just typed in random digits. Try generating "truly" random
+                numbers using dice, Google or any other semi-random generator and trying those out. Can
+                my model detect when you think of them vs when they're generated?
+            </p>
+
+            <p>
+                Enter a number below and click on the Analyze-button and find out what my model thinks about your number.
+            </p>
+
+            <input type="text" id="visible_numinput" class="numinput" readonly value="- - - - - - - -">
+            <input type="hidden" id="numinput" name="num"">
+            <p class="error" id="erroroutput"></p>
+            <div class="numpad-container">
+                <button type="button" onclick="window.click(this.textContent)">1</button>
+                <button type="button" onclick="window.click(this.textContent)">2</button>
+                <button type="button" onclick="window.click(this.textContent)">3</button>
+                <button type="button" onclick="window.click(this.textContent)">4</button>
+                <button type="button" onclick="window.click(this.textContent)">5</button>
+                <button type="button" onclick="window.click(this.textContent)">6</button>
+                <button type="button" onclick="window.click(this.textContent)">7</button>
+                <button type="button" onclick="window.click(this.textContent)">8</button>
+                <button type="button" onclick="window.click(this.textContent)">9</button>
+                <button type="button" onclick="window.resetInput()">/</button>
+                <button type="button" onclick="window.click(this.textContent)">0</button>
+                <button type="button" onclick="window.undoInput()">&lt;</button>
+            </div>
+            <input type="submit" value="Analyze" id="analysebutton" disabled>
+
+            <mark>
+                <output id="resultoutput"></output> 
+            </mark>
+
+            <p>
+                This works best when you're using a phone to enter the numbers, as you type differently when using a mobile device.
+                Of course, this doesn't work every time. It probably works about 90% of the time for most people, especially when
+                they try to enter a number quickly. If you have any questions regarding this website, feel free to email me
+                <a href="mailto:noel.friedrich@outlook.de">here</a>.
+            </p>
+
+            <script src="main.js?t=0"></script>
+            <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+            <script src="analyse.js?t=0"></script>
+
+        </main>
+
+        <footer>
+            Made by <a href="https://www.noel-friedrich.de/">Noel Friedrich</a><div style="width:1em;display:inline-block">;</div>
+            <a href="http://www.noel-friedrich.de/blobber/legal/impressum">Impressum</a>
+            <a href="http://www.noel-friedrich.de/blobber/legal/data-policy">Privacy</a>
+        </footer>
+        
+    </body>
+
+</html>

@@ -1,0 +1,384 @@
+pytorch2.0.1:Å·
+Õ
+in
+onnx::MatMul_25/hidden1/MatMul_output_0/hidden1/MatMul"MatMul2ÇC:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(58): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(118): wrapper
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(127): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1548): _export
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(506): export
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(111): <module>
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(124): _run_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(135): _run_module_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(321): run_path
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(284): run_file
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(430): main
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\__main__.py(39): <module>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(87): _run_code
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(197): _run_module_as_main
+
+◊
+hidden1.bias
+/hidden1/MatMul_output_0/hidden1/Add_output_0/hidden1/Add"Add2ÇC:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(58): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(118): wrapper
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(127): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1548): _export
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(506): export
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(111): <module>
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(124): _run_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(135): _run_module_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(321): run_path
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(284): run_file
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(430): main
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\__main__.py(39): <module>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(87): _run_code
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(197): _run_module_as_main
+
+Û
+/hidden1/Add_output_0/act1/Relu_output_0
+/act1/Relu"Relu2≤C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\functional.py(1457): relu
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\activation.py(103): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(58): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(118): wrapper
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(127): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1548): _export
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(506): export
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(111): <module>
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(124): _run_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(135): _run_module_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(321): run_path
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(284): run_file
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(430): main
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\__main__.py(39): <module>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(87): _run_code
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(197): _run_module_as_main
+
+ﬁ
+/act1/Relu_output_0
+onnx::MatMul_26/hidden2/MatMul_output_0/hidden2/MatMul"MatMul2ÇC:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(59): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(118): wrapper
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(127): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1548): _export
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(506): export
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(111): <module>
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(124): _run_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(135): _run_module_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(321): run_path
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(284): run_file
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(430): main
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\__main__.py(39): <module>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(87): _run_code
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(197): _run_module_as_main
+
+◊
+hidden2.bias
+/hidden2/MatMul_output_0/hidden2/Add_output_0/hidden2/Add"Add2ÇC:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(59): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(118): wrapper
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(127): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1548): _export
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(506): export
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(111): <module>
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(124): _run_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(135): _run_module_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(321): run_path
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(284): run_file
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(430): main
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\__main__.py(39): <module>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(87): _run_code
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(197): _run_module_as_main
+
+Û
+/hidden2/Add_output_0/act2/Relu_output_0
+/act2/Relu"Relu2≤C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\functional.py(1457): relu
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\activation.py(103): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(59): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(118): wrapper
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(127): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1548): _export
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(506): export
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(111): <module>
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(124): _run_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(135): _run_module_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(321): run_path
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(284): run_file
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(430): main
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\__main__.py(39): <module>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(87): _run_code
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(197): _run_module_as_main
+
+ﬁ
+/act2/Relu_output_0
+onnx::MatMul_27/hidden3/MatMul_output_0/hidden3/MatMul"MatMul2ÇC:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(60): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(118): wrapper
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(127): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1548): _export
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(506): export
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(111): <module>
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(124): _run_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(135): _run_module_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(321): run_path
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(284): run_file
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(430): main
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\__main__.py(39): <module>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(87): _run_code
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(197): _run_module_as_main
+
+◊
+hidden3.bias
+/hidden3/MatMul_output_0/hidden3/Add_output_0/hidden3/Add"Add2ÇC:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(60): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(118): wrapper
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(127): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1548): _export
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(506): export
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(111): <module>
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(124): _run_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(135): _run_module_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(321): run_path
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(284): run_file
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(430): main
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\__main__.py(39): <module>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(87): _run_code
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(197): _run_module_as_main
+
+Û
+/hidden3/Add_output_0/act3/Relu_output_0
+/act3/Relu"Relu2≤C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\functional.py(1457): relu
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\activation.py(103): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(60): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(118): wrapper
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(127): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1548): _export
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(506): export
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(111): <module>
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(124): _run_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(135): _run_module_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(321): run_path
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(284): run_file
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(430): main
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\__main__.py(39): <module>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(87): _run_code
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(197): _run_module_as_main
+
+‹
+/act3/Relu_output_0
+onnx::MatMul_28/output/MatMul_output_0/output/MatMul"MatMul2ÇC:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(61): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(118): wrapper
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(127): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1548): _export
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(506): export
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(111): <module>
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(124): _run_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(135): _run_module_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(321): run_path
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(284): run_file
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(430): main
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\__main__.py(39): <module>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(87): _run_code
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(197): _run_module_as_main
+
+”
+output.bias
+/output/MatMul_output_0/output/Add_output_0/output/Add"Add2ÇC:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(61): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(118): wrapper
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(127): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1548): _export
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(506): export
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(111): <module>
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(124): _run_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(135): _run_module_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(321): run_path
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(284): run_file
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(430): main
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\__main__.py(39): <module>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(87): _run_code
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(197): _run_module_as_main
+
+¬
+/output/Add_output_0out/act_output/Sigmoid"Sigmoid2ÜC:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\activation.py(295): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(61): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(118): wrapper
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(127): forward
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(1548): _export
+C:\Users\noelf\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\onnx\utils.py(506): export
+C:\Users\noelf\OneDrive\Dokumente\programming-noel\noel-friedrich.de\numcode\analysis\train.py(111): <module>
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(124): _run_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(135): _run_module_code
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py(321): run_path
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(284): run_file
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py(430): main
+c:\Users\noelf\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\__main__.py(39): <module>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(87): _run_code
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\runpy.py(197): _run_module_as_main
+	torch_jit*ï Bhidden1.biasJÄã¢!>Ie∏æ÷Ω√wzΩÔñΩ;B?øMÔÈæˇWkæfÑ_æ±›†ΩM	«æ7ÊÈæÜ-âæ\òkΩÿ7§æÙÆ≥æ14ræsÓ©ø=‹Ùæ5]‚æÛÚ≤æDæ<4æ#ñæ√7îæòTZ=K=‡æ/òøÎ4¢=ªüΩÉaOºëdø*TBhidden2.biasJ@J≠!ø.ﬂÜæK™Ω[˝;æÑmmæzßø∞´ºÍ=˝æÒ¶ˆæÉ4sæ ﬂÒæ¶KÍæ‹5+ø≠áŒªüFƒºi±º*TBhidden3.biasJ@úæô@ÈÎ?•!4@}∑æKNæjìâæaw◊Ω‰ÇæÊ∆xæt;§æëö/æf&óæbËzæŒﬁ4æ˝˛∏?*Boutput.biasJ,ÇI¿>E@*öPP Bonnx::MatMul_25JÄP5†øv¥ä>Ìæ´ª?Ì>7&ƒ>Q/è>s=13ÖΩzA;?¸<>Ω)0æ˚4µ=Øò>Avø3›µæ‹»§>«3œ=£Ã›Ω¿‘%?ıæX©Z>ù!>ô,Æ>>fX(ø¸Ÿnæ¨¢®>æ]Tø‰´Mæíóøûöe>Xüv>„>VÉøáLÜøƒß¥ø£Åﬂ>q,›æ‰ pøœ®÷>&6Søk_"øV‰?æõx∑æT[p>§À˘=y‡†>4&∏øq!¨>ãê>a©çø†
+.==NΩúÖ?múæÀa?Ä¿ùΩ√d◊ºF4?≥9Ó=ÆÏ=Á>(?ÙÉ>†Ì?5Cëæ‰)=ˇﬁæÌ7âæTÆ=â¡æ>√&)>œøÓóøÈcó<X€>hÜ≈Ωø¯>Ñ$í<0‡Bø∞√°æDª˘>-/,>Q£p>˚¢Zæ©€âΩŸ4ñ>âcæ±ﬁ=¯ÿ™æ‡·=M¯/æ®;èøV˚”øUeøà;>O ®Ω´_†=Å©ôª
+øæ¯Z>¡Å=f"˘Ω⁄ﬂh>rhÖ>n•=M,¯<N?”¨<Ωﬁøøú@ΩrÆˇΩÔ¬>Ülì>?ææÜ%Ω’˙£æ™+É>4†>Ù&=Ø¥îæ~69>ÏêæaÌ>ÍoˇºÂi>%$|æÛﬂæÆØ>KxwΩ_3„>l’øˇD±ø˛ó =@Ë±æ›ˇ¥æ
+g;æâ∑>¿æPªP>ª9†Ω®‰∆æªvæ¨≤&>fAØæ˝éñΩ¶j>qΩ@æzôm>∂ºæÅdÔΩÈøl[oøóD æG´–>åmZæ≠·›æ˘ö?+#>U≤ã?dÿÈæ‡˘ﬂ>µBΩc6ä>ÖªWøV¶æ5≤Ωä–V>
+‚§>Á:=ïWΩG˘ æ6≈ƒº&öæÿ#?ãø‚æ∫¨…>R˙9?≠æÌ–.ø>„>+yÇΩÈÇæ‚íë>•#á>b,Qø;Râ>1˜ö>Üâ¡ækå>]≥Ω≤æ˚Yr=Kc6ø·-dæq#ÿ>∫K>.”=7%¶>?=ü/øùWÔæ◊8uΩ¶Ÿæ[ºq?ZöΩ˛“(<_Ω?Ù
+næ˘}?ô´Ræ≥˚>¥¢ß>ÍØ{=÷˚ó>‹›>M‚=>† Ω†Ú5<EµÛº¿íQ>∫”6øOö›Ωj9$>#™Üøs≈æã§]æÏå÷æ‰`°øÜÄÙ;v ≥Ω˘ˆ=•Î≥æßä>b<ø∆	Ô>zR¸>ªZ`>≠ØPæE"çæØ·pø¬æÏä∞=cÔë>Iá>s3>s÷˙=¸ò"?ƒ ≈=Í—>4bÕ>≥!¥>ÑóΩãö&ø-çæ#Í>Úø$#Ê>MÉøx÷∏>èÙN>âx¿>Y>?˝ø§Äe>êõ3øƒ∆>ΩƒBøcæsW¢ΩÆ+æºœˆ>5å>YOú=;Íá>À˜DΩ`©⁄ºbu“æç}æ#s¢Ω–@øQBÂæ*\πΩ„#Ü>œU–>ñ„ßΩ∫f.æïiŒ<£r¥ø÷Äƒ<˙¸F>n¶∞æP™øTè>J*Üæm[∂>¢wãæè∂1>ˆ≈„>æ‰ÜΩ‹$èΩ$ˇ◊æ˙ΩNeÅΩÕ≠O>˜fôæM8í>ƒRœΩ=KæOíûΩ?ÕâæõßúΩ“ÖﬁºfÊæò3væ›À≈=åÈ¶=¯£*øÚúäø{ƒ>5)~>}r ægú¨æL∏—æô,™=ÿ6æAê®>‹éﬂøé˛æ>xÒãø⁄î >(4µæ;∆f>#Û<>2í#æ≥”«>≈K≤>'´9æ¯ë!øUy>>¡Ú‚>dím>Ï]{æºœ÷<BúØ<‡∂0ø%£>°P<ÅÒø€CÇ=⁄oä>çc˝>Zß!>WªWø¥'ﬂø∫Yè>ü¯ªªm?R>]Óæ6û+æ‚8ø|p->c>AcøÚ±=$Pª<4Øpø`Wºv†?=Ëà≤>=⁄:qpg>?X9æ£9◊ø…ÿRæ˜i–>g[>áè>⁄/æ–;–>å˙æ±C~øóG…>¡œ!æ∏ZùøÇø10wºÜªyæC!ºæO
+éæmæí>¢Ú>\“>¨◊œ=}èø?ˆ˜?CÿŒ=◊∫->2°‹<àc„æÍœn>rØ'?u¯∑>Ã–ÖΩzÈ[ø«sò?ïü¿=Á≤Ω>¬æ‰ò>∫±ò=Ve™æ•’Âæ‡¿ﬂ>‡·">{∆l>Á-ΩQ¿EøπÇî=ÃÏÍ=Òæﬁﬁtæ_ö˚æé“øe˙3>·ùæ‘¸fæòº=ø)¿íø:H=–˘Ç>&sâ>ˇƒ–>5 æŒ€=ûlø≈u§=Û8>7·æí{f>%¥∏>z√iæ§1óæ≠ÒeøŒÏΩ>:ãY>óÇÉø¸;Ö>¡˜æ<" >Õl/>9G€æ:Æ>•¯$>·»åæ[*¬>j˘æÙ°ø>ˇB„=îå⁄=„S£Ω∫Ú-æh∫“æ⁄ù?NÃô>Ø∏=u∏næü+¡æ&Åı=k¶Bæ}ª¿æ∂ø(πÿQ<?`>ﬂï˚>7kcø∞Ùø§Ahæ}ú¨øã6‹<˜bæ-{8>$`5æn∑π>áh=5ßπæú#=ò˜˚æW`0æÇÏ4>†éæ…?vΩHS…æ3ÀGø¬ÛXæ6ØáΩZâæ@=æü	øH…Í=Ëq=Ä&é>`’ææ0ÊøçUüæ®ì÷ΩÄ¢æ≥åÀΩÜøúæUô>
+c⁄=w >æ˛o-?oMÆæyá=*œûΩ{cËΩi»∂æñÍˇæ˛{÷>ïÄc=ÛEß>F‚ æÅç>Ïª¯>6z¨æ∂ >“œ>ÄEæD~™>µw=œe‹=“ÚÏΩ≈„ˆæƒi?`1øh©[øRÇµ>è¥Qø˛ z>z«æ/p>›&gæåp]>/†Ä>ç≤X<∆OV>gæNåHæ)Óº˝≠ΩXCŸ=ìxæ ¿í=Õß*=U%lø˚G>Ã	∫=∫LRΩP6â>ÕƒæVø^c>a„æ&æ‘%∑<ﬂíÜæ¿‘u>√≠>™yµ>VO|=êëyæë}Bø3É>î…∫ø40>˘q>ò|æíV>ø&ÒΩ·I?	h…æ6†]<‡è3>snøB∫=æªÚe>ÿ@·æπıÉæX^°>	∫ŒæØäÚ>∫dΩ˘ëoæm0æGH%æåö>ìÆæHëÃ>€mΩ,¸ÛΩÈ∆Ÿ=ëæ∆æ‡«c>jXΩ-Z°=PÕH>/{Ë=		&øz!ø<˝ÂΩÛï™=øù>(}?ŸW<]&≤ø≠8†ΩâË>C0AΩï√Y=6Ò#?ºTøﬂÂ9?YHº=Nø9ı¨ΩÂ‡_>eÿÄ>G'·æÀˇÙ>L°Kæ™ƒ'ø¢ãô>ä¨?Õ”ΩÚE>cÄä>*^ªæøÅŒΩr±.æh“úø•˚æUJû>f“∞=z”‡æ¸∂æb¸æ∫€@ø7/>=çê'?¿á%ø”∆x?µ!Û>û*ÆΩæ˛ ?Ù©>yC€>ú øº>ƒÅ¯>è!±>,?éﬂ.?ø@á>ÑäÌæÈ8•>E]=£Z¡øSntø'ä~æ0f?Qì>NUÓΩcøH“<ØµÂ>ÂHàæãﬁΩÅø{⁄æWìÌ>Ç5ûæNVø¢®æ˛w>u
+´æZîø™ŸVæı`æª¯æ>°øo?|ªí©ê>˚P>®vk>’eΩø£"–>s¶>phƒæcÂg=)˚p>ÚA¡>Äá¡>û°>på9ø&–îΩ‘SædÊ•ºUÒ>ﬁƒ‘<Ÿ_Ìæ¨^ø©)æóÊo> ™%?Ó<E=…X>=s‚Ω»\ø`˝>T®çΩÉo ºí5Âæëåæ‡ç>Í¢>DÅoæπlø¶Bhø‚Ã>â ø/¯>¸W>°/>Ë$§øuˇ!æm÷K>#åI>»,ÜøÙ…R>‡Üæ∞∆3æB'?+ßÆæ`÷≥==ü˜=∂«∂ªâ”=‘=ßæ‰ˇ?æ√B>kÑ˘>¢Ëø$–≈;Ùì|ægí>¬ì±æ% u=îFZæ•∏#Ω0$˝æuÓ¨>J]8øIæâΩ. æπ~O>nY›æ¿òºº—>oRXø“U;§~“>©˛æT≠=6Íå>1#€æ{ú<L
+ø∑Wmæt>Yû>ÔõæÕÁ>Ÿ≠K>˘Y>ÎT°>TlÚ>éﬂêæTæ†òΩ÷˜ø≥àr>/J˛ªÑ≤ôΩShGæıæI˘"?G˚/?k¯5æ˜g.=€´¿]Ê6Ωeï>;¢Â>Å4—=Íõ⁄æ‡%_Ω≈º?∂ﬂ=Ç+`æ†E˙>˘,$øL¡ø§≈>UòâæÉ/…>|Z“æÔÚÔΩˆõ@>O•œæ‘—·>≠AÓæë˚…ΩﬁÌèøX>?g'.æÿ⁄Åºèñ=íÛêæC"=`[9Ω Bºeùæ˛ïç>î·=∆jqΩŸî='-øù—=ˇ¥e>m˝ÉΩôæ”nÌΩ]ﬁ¥øà∂*>Ä›´>ËùΩ/ÿ9>PB∂æR≠+æ≤º§6≥æòÔ æUBæ€A=˜ÅØæ¯ˇn>®øæwΩø»s2øh˙Zø!ÑÆºh≠=L?ÉøñÌ$æ´îËæ^ûzø –ΩO\Fæ¸`Çøîöæ‹N?T>¬ê>U	˛=¢	µæ∏læzç	?MQ>≠t%?ÄπæO∑ŒæôÆuº≠ù>ôäyæoÄΩûuüæ•çæ·rÙ>i„˙>^Ò>ßv>4Ç∫æÎ÷Í=º ¬øâÉ”>aòA>[ÊΩ?™=—å§=â<©>Ç¥â>z@®ø¶ æÊâæzy∞>V^≥æaG>ø|0æFé÷æä'ø◊÷@>π§<>Í=ÕÖìæ4>Ö>¥âΩ=Vc_ΩÅ.t>‡*Ú>»ôø∑{?GsÉ>“!ø^-5æ@ÖœΩü£øÃ€¨æ„Jù=|° =⁄{æ˜4øºø·9oæqÎº∂Ææ€_>UÆ∑=:ûÚæüÚêø3Øù>íAÏªA∏ˇ∫|>>ió;?rcªTî`øŒ[ãæ,jDæ\∑†=»àY=oè=>≥€bæi-ñ>˝·ª∆Køü
+^ø*¨>c¬5> »Õ<êL”ªHtΩÛˆ>Ä∫È>1‘øÒEÇæÆ∞ø•ﬁ§øõ>ÔÖ£æÇ‡Œ>S≤-?om>+øªR?Bmﬂ>‡üæ#€∑>;ﬁºÉ≠>¿ø>«>3.X<∏~çø.ˇ ?dû≥>-@Ω°ΩΩ∆ˇ.>(5øI«s>H$ÅæFWøc◊Æ>
+^Ú=‰“‡=Y.O>Q|œæî˛äøµ¸»æ!¿¢øæmæÄùΩzC¨=ëâı>La>:2">÷≠Pæ¸É∫æÿí‚>&RéΩ^»âæ1áÉæ»"¿=˝r>‡'óæ˙œ<:ßÎ>Õ4HΩË#†ønïòø¢	?“bhæè+=ˆõ?S†#ø$)?=7£µ=n!øV“Œ>Æ*ø
+˛à>Aå=?¿r>p2ræTme>µøNΩ\mÎ>6Õ%øPa¨>èL¡Ω°¨ ==
+3? =Û⁄€æ¢Ìπæùl2æ„âÛΩ,3”æ÷ƒß>!Ÿ\øFcÆøSƒ”>Kë˚<˝îæ≈Rø∑û‚=‡í√æ?Àà∫tÃæäÖ>K>0ÿΩØoΩ	ØÓ=]√.ΩKa:æÃMëø¸±£Ω˚eø9oJ>‚“Qæ˝Ø˝º‚n¡æ”]Ú<[G˝>4‹@æQ?¥>LpƒΩEDı>*ªæ ^<æ%o =È…†ºˇçi=ı¨?ÄøÄT?s⁄æÁu?:ÚáæÎÑc>}:A=.løI&ª>˙Üø>Ω,¬ª0«
+ø÷¿ªæ›(Gø Ø8>jƒgΩxÉæíº©ƒ÷:ê†æíëæ·*Ω]øΩ5ø˙óæ¨,ä=ŒÕâ=ïóì>¡>¸Ãø˚|BøcqÒª»ÙΩ|qÅ<":´æOb?Ω#®>˝ÍÃ>˚|(æÙ-	øçKÒ=)CGº7◊≤>Å3>¢N•æítµΩï√÷=˜kKæ˝^¥>W≠>O#-ΩH†zæ≠t9>ô.>+Qõ∫ˆ,Xød(u=@U>h5'æ¯qæÓ>¥øõëΩgCùæÆa›ø?à◊=˛häæOb„ªAÅiæHÙMΩ¯WæãØcæGøÀŒŒ=Õ‚Ωæ ?ïÖ>JAg>^≥Ω»ˆæÙ⁄æ	7]æ⁄eúæÁŸ>æDúôæ´kô<?Ï<z8Ñ>º¨q=e˙DΩ+øæ/H">Àà≤>u’—=@»W>8vQ>OâVøRÑæŸ ÅΩ∆:m<@tæøÊË‡æorÀ=\?±Ÿ∂>Yßxøò"ø·°æ™¨Ç=©ÄÉºΩøÂªæu∫ÑæQQΩÙù§>W-óæAΩœ(øÆJ>ÕgÀ>≥5ä>YP∞æçW´>˙A˝=¶BjæYoøØˆ@=ôpæŸ"ÊΩÎøCÂ ?è“Ω5?ÿ*>æbR>è‡#æY:>zÌ/>Xì%=_ßvæñ8!æŒ≤øÌñæï!L=Û¿uæê[æ°∫`ø·]H>∑”∞æ√dø≤Ò¸ºÒ⁄w>∂ææÁ2æ.Œo=%òe>].ø ?» æl∞!?Ö<û>îk<æ Ú;>Ì£
+øtøï<Ÿ>$°øΩAd=ZÒæUäøÒ,Vøùu'æ≠ÆwΩ’gæŒÍiæŒÄ?c $?ÚëX?˚Îä=Wsÿº‚`>«?Äæ7nAæ±Wxæ Œ»> ‡!º¡aæzà¡æ¶°AøI/˜> yRæ'ÈΩq¿æ-ƒÂæΩmøv˝–>'/?~O”>ËmÇΩ¢ôAø.*êæ˛[æ%ìÏ=3©ΩºΩ!>¡?j§_?yÓΩYk?}Kræ`1ñ>Bø§‘Ç>Ω&Ã>¥	SΩ¢!?†Ñ»>π4)øHÚ‹æj·ùæOj´æ‘}êøŒ…Xæ1MX?(rk>Btí>H—Ñø_ æÇø¿ﬁÒΩ ≈=æÑ•"ø±¨bøÙ‚¿o0ËΩÃ†ΩÒ`∂>aåU>+§ÉæÍ4æâ>î-EΩÂÚäΩ0–<Ω‹§ø…e">mıÅ>ïR0?u—	?LÕüø…†ìΩπ€?Fiø4ä#?QÔ†=¶èæßﬂ'>ô°§Ω∑<t=Óüª=ÿ”øÀ¬ÃºüªKæ1e∫ÿ˜˙>$kÙ<ƒbÀ>¸>à9∫<´A(?{Q=§fµ>•J6ΩG¶Ü=Í…>ÏwøÂS‘æf%dæ°>ªCÑ=≠ÃæÚ∫°øv}=iµƒ=‡å æOÓYø)º∑æÖKô>7Ã§=2ﬁ]æ€≥è=∞0p>Ååfæ2·Ωc~Uª∂µ=ÂΩü=Ncπ>Ωß?M*8øIπm<ßJ&ø∫øæ∞wø8ì>*úŸºÛ	ø[v2>µsü>˘®>m>Ë≈íæzß„æÏUræ‘IÁ<∑≈>iæ˜kƒæ c◊ΩN}> o`æÿ˜ãæRî?;M¶øPämæúò‚=”uBæƒj£>!ˆæ)•à>J-ræ>˘íãæÚßPøÜ»æ1uDøWnøo≈µ>’ŸA>€·Ö>Å//>pøGÈæÒ®æÍY;µÊUæÚÒñ=‹*ç>|ÕwæjR¢>⁄´º<—ïõ=m_˛æ‘Uw=Esø∫§æ‹F˘>∞Ãûæêı≥>jèoªì‘eæ:4=æ˚ÁiøÄ–•º0\ﬁæÓÃ~øòæ¨Qû=W¿]øvÍÏæ;k§>ˆØº%∏ÛæhÙø.√ˆæwÄ>c6ø°ª?”ﬂ>7£ó>ëÚ1>'møÆö=ïåY>ëF∑æVt†=UJ"º£œºqAæ9V?\Òæ÷)îΩ}r›>‚w´øÕ œ>"ˇæíâΩábãø¨:a>¸ÔC>∆å>{SÀ=uSøÃ/îæ~–øûˇ	øVáÎΩµ >_êúæ ¨;>û>Yù∑;…˝æF;¢æ.∆¬>ó†6=ØCîæà˘>©:Læ‡√æ`ùæò$®º›{ >n>Kˇ∏øòny>`ì†øÁ˙Òæ†˜	æ€kÃæXH›æLF@>∂=⁄ΩÆÚZ?ì~ø<IãæÅá¬>C%!>\™>J
+øòiù>mÂ>ö—øBªÊæV3ß=Îæ◊=≠§ÆΩ⁄TÎ>¬çk>;‘ùæÇøæ„%<îãä=zI>û]ΩVÈ‹Ω‚ÛÙ=H
+ëΩÀ™ærƒq>o6∂æÆè>»>òpø=ı ©æ∆ò¸>§bΩ7é∏=°Î¶æ_⁄l>Ñ¢ÅΩQxm=Íò>:ÿ}=ÈiÊ<©T>”Â1Ωì‚ø6∆F>œìõæ∆BîølºæÁ=œŒ’æ)√5øºRË>ƒµ>”¥Væøñ3æ™å∂=¶Û◊>MØœΩõ=“>Îí>‹7@ºa3>I
+?Æº§>?€)>,ôZ>ÆYäºÈò>„€>ÉØæ¢ùÜ=ÅúΩ/ææs· Ω\§∑>±¡l=u¬•ø®‡£æ ∞æ&#q>lÛ5ø¡çøS`ø◊¿Ω§j≠>æÕóøŒz(>˙æ{B=[ﬁ>oºoøíäu?[¡2> RÑæ˚?2ã∆>¿gË>EÃ>Êå?ëú?ønøÖ;?–fT?JΩ†ø¥yÏ=zT1æ‘‚>ö æÍæÚÍg>QÔû>äƒj>ÚWø£ì?#÷ﬁæÄÿ–æ#âpæR€>Ÿê?O%øÒˆÆ>;Jå=¬ï&?≠œñæ0ÎøØ¬>öâ`>gP"?p>åΩ∞Áõ>»OK?P˙`ªÀ“+>∆âí>∂	ô>Yg€æ{æ>ƒ>∞ 4>J:èøo?ÎæGÈﬁ>B°ß=aãC>Õ\qæÔlÛ>6P™Ωf‚›>Ù&ø»6æ;xõæBüæ‰Qs>‡ﬁ‰æµLæ…¡É=»¨üæ6¡Ú>∑&ŒΩx·A>≤n1;=˝ø!>2™‘ΩI|Äø1bΩ’+xæ[ øêìÅ>¿ÆΩpŸâΩ€¨≠æR«öæ6À7>ø<a>ÎZæ-˜>í6∑æ0>ß=Ø3BΩ•‹4øRVŒ<i·ø°ÄÃæI`>ç˝zø„ˇ<„ó æp∂=‹˝üæ^†åæ“˜í>1˙§>òæóáO>`®ª=¥Ω`Ë=Ùúfæ?Âtæw≤?9_AΩ,Q+>Ù
+nøuÄÑΩ¬3ø2^•ø…ú†æCîæ≠vàæw¨@øÿ]Ÿ>ÓùæÊ∂æp¢≈>]xΩ>Ç4∑Ω‚¨Ü><ôπ9±)>>√a;=ÙèRævàΩ\M†>`˙ øs9Pø®ΩˆbÄ>:/‘æ…éE>s4?˙2YΩ∫ù?Hwîæ¥∂ø∑iQøyÀÒ>™Ù”>Úµººàà?s˘>>ÈºlŸ°>§∞ΩÁ9œΩÙç1æaA>∂P=ø∫>K≠Û<+ﬂU>.ªÌ>FÔ_=*3A<1ì>ïÑ>T=≥˚>´®í> ˘ı>õ”>àü<¿Ünø6⁄=∂.8=f:øÆæ!_Î<◊"≥>˝‰;øÂŒ æu£øW{¬ø⁄©π>\nÚ=⁄±næ∞QBøeiæI~|=˝ò=ø :-Ωm¢væ¨Î≤æ…›æ–/◊Ωù7ŒΩ2Æ√>pnèΩ®Uæ≤|º€¥'>¬p>gPÈæjÉæ˜¥ø?6ôΩb—Ü>„˛DøçÎà>◊st=k6æ¨«>ê0?wó>Cì>∑≈ø¡üΩ≤ÀÃ>lR?“Äˇ<ÚøÊ¯ä:ÈT>ÍùÑ>¢˚kæèÕ´ΩÛ‹æN◊+ø-º1Ω%fkæ"?Éÿ1=∞rÎ>3b?Ω
+%>ïTÇ>c,±>rMøÛŸìºJÖœ;¸úÃ=Jsø¢ ?eamøµ%•æm>çæ√:Œæü®FæîH_>*¸À=^±eæé5ó<∫KΩ%fT=¿√=¬Ò∫æ%;wæXSé<‡ÄX=ëÁ…ΩHÆ©>¿0ﬂ=nÕønéGø—xˆΩ‰!øC˝¿>lDôø‰@&ø\å>Œ¯∆>ss"æ
+î>_¡J>fıÛΩkVæ\íæ¢˙Ω1ÄQø2Æ>ô¥0?◊Âz>ËÚ>Ïßo>ÃJøR∑?ªïÌ>´ÂÇΩŸ∆ø€äW>f∆æúº? bà>|$ø‘:º>2ìU=K¸èæf;ø√•Ôæ·kØæNe$ø-˘•º?‚j=|Y> 4sΩj]?xfµ>iòø«î>MróΩzﬁΩ•WÆ=âáªº.0í>”ÉÑø—n=”s™øNc≥>K {Ωá˙?EôU< ≤sæÏ§«æπám>∆|ì>cs∫ºE ÷ªÆ€>u¸6ΩÇQΩkØ9>ú∞’>∞+ıΩÇÈïæ"ß ?‰!?‰røQ.~æ…7æ)®¸>ë"èºπ∂'øßP]=˚%n=¸ôÄøWY‹>ú„Éæh–∂øbø Ó®>¸ıæ>—˘Ø>RY?BìÖ>üa√=z'>æ €?Ó”'?m¥9æë∞ øa≠ˇºÌ?©>-æ⁄(?ÙûsøâÅæ!¿¥=∂/@øJKÚ=PwÙ>Å È<◊1>K;ã>‹˘ø∏ÑsæˇtøŸ?‹6÷æ3JΩõ¨Ò> Œæ®ÅË>ÿ≠=7u,æ◊û∆>9ÁêøÖVø>Ü÷d?ªnÈºi¬.>ÑÏ⁄ΩvÈJæ¯3Q?Qôæﬁ=É>˛ú=†™ü=müæˆØH=H	>)∫ôæKëΩèÖ∏ºñÏ˜æ\eø”®Ω∆^næ¥È =º˘ ?KÜûΩv{ıΩa⁄=g–ïæZ?>T[Ω#Ê“Ω„:c>ú<<ØÆXæ˜|òæp§≥>Ÿq>ç∏>Û ΩJNºÑFΩæú∆ æW”˛>AîTæ˘:|æ´ï⁄>ÖÂdæõÎAæ‡˚íæA`BøàxXæ«b&=ÊΩ+ÃZø˚òº»˜≠<’Ñª>…Aæñë°ø7'->÷ƒí>Ëx<Øoaæ,ç¯æ2Í†>Y(ñ>çnßΩπ]È>`ƒüæÆf>cwmøSG$øèægì~øàhæWÅÏæˆkΩ-64ΩÉ5Wø◊'#?§Fã=π≈®=Œ <“sdΩ»Ωæ–åŸ>‹tæ∑4“Ω°rìø”ë˝ºKãW>3m>o-æ^ÏﬂæÖ+Í>πêæ-÷
+æsQª=8≥π=üf˚æ®±‹>4ÈO>≤	¥>ü_∫æ£BÀæ(3í>”¶„æsÈ¿øÍÔ-æ™>ﬁgøeñ…æª∆¬=Î‘õ>ö>/Œ'øaJ—>∂∂NΩ&êî>2£ßæÀ≥VæπÎã=∫üq<•¿>∆åÛæò‚ΩºDıæÛñk<ßÁcæ÷>òLi>kI§>≥
+øÆì>ri˝Ω®∂†Ω∫æ˙z‚>„√>æ	«ø«P?P-§>]
+ãæ¯¯ÅøΩè…øLIΩΩ_øVõÁ>f¢=û‚6ø“˘w=Â–ø5ˆÑøÉø di=+"«Ωô«ìæª%>3ø⁄iøÕû±>I £æ„ƒ8øú=éæ{kÕæû¡=√ÚJøÕª´æäyÄ>Q]⁄>ù´Áæ¯„!=˛¿›æ|%?w.ã>Ïb‘ΩöΩÓ<†A?Y\”ø±>æÔtúæj¯1?˚◊$øÙ‰√=⁄
+>u5∞>¢˙Ëºm#∏æ-¶Íæå
+>ÙzÏ=ã&Jæ2°¢>¶ù¿æ⁄Ôæìµ?æ_iΩï¢QæµBÕæbi$<ÄVp>ÎCÜæ=˘¸ì>‚…ˆæÌö=guø¢æmtøk[—>◊çøòuÄæ˛	g>™=>ŸS(øˆ D?˘*>‚ò9>Æ⁄æÍ˝ÚΩa2‚=≠2¸æk~Çæ’˙“æá æ[Î>πù«>ã’ì>î5ÖΩQnQæÇ?IÄ>»=ªº{∂iΩﬂ"´æ#…>Ävı>±Ûê>r¯ΩSßbæ≤fÃΩ|õL>pÙçø∫>˜=,A;ø4(WæÈrë>ïÕæÅºz>eMòøÛiì=`NÔ<Æ“ﬁª
+C„æÊeJ>.—3æak!æÖr?S•»æ˝üW>gQΩÀbø√íøù¯?ø¨Ö‹æÀ…æQQ>¥oªø.øôˆ?&A1ø%ﬁL=ùÌ3>2≈â=˝Yø>ÿ!∫;Ø—èæK¨8>GÃæ÷∂¥=Ú?≠Ωˇ{>S!øáv∑øÎfÒΩ4¡§>T◊zæÊ
+Êær$ >áÚ≤>¯ÿSø≈s˝=¶•µΩ⁄≠òæ§π»ΩUoæ-`%?JyqæsDøÑÄ=?jÍ>õÂ"?∫í?Kö√æ√[zø -dæ;wz∫ƒiâæJOàøD$ÒΩs)ø5+˘æa1ø%∑=ß-çæ 5ª=[o†º‹tπ=˚_¥æ†(}æ‰’>vø¿i1?ÔE?ˇnKæá(πæì\%>÷T—æÏ]Òæ€≥t>∫ı¢æ˜¨{ΩkV4> >πΩá>∫ˇ¿;ÙúˆΩ÷	∞>–—yæÜŸ´æµ⁄÷>ﬁKæd·ø˘¸\=/]›=ã.ˆΩ^ øÊ ΩÛπlæÖ¨2æ\ú>øæs∏‡æ íæ√/~æo«Y>…Ö™º¯˘=tÄe>_øœ†œæIÊm='ï>mÔåæ@Ê(>¯‹òæ•âv>£<=ø“@æ’´>:≠.æoå>€¸É>òR-?løY¿åæaËø≤ÀºÉS9?Âa„=∆
+?æ5fø∏u>k>˜vø™øS5ÑæàOåºC,ƒ=–¥•>Eöø∏ô≈ΩYuøºJøya?Ím¨æ/¿Ω,Ø>l5∑=€ÈàøΩ ≈æø/>Í"¡øt ¶æêã™ø¨&ó>MvòøX†>EI)>˙©±æÂ≈òª°Õ¿>1⁄=∏ÉÓ>†{"øœó9>´/dæL&OºèTÆ>»Øæ'“$º^˛>…€ï>πÿŸæ>√Rææ•<<+†Ω÷	æK;ñ,U>¢Ã.æ	NP>•´S>ì]›>$LÒæ˛Ø~æ5$PæÕ¨æ˜p
+?Êôæó∆áæ¶∞æÌ§ø=∏˝£æM^Mæ!r…=ò‡Ëæ´!æ‘H‹<A/Œ>'(ß>˛®	æÈS’ΩZî>aÛ#Ω9e(?3
+2>ÜØ©æ~r–æOΩÜVïΩK)ΩKèæê)õæi˜ æH=v>T…Å;Œy¬>r?◊¿Òæ±&ø&?∞vŒ>zçı>|9æ¢
+/æÚ.ø¡ùæÒ bΩ¸Na>˚4?óø>å<«>åæ8>Pí=Æq=¸=˘¡¥>j$çΩt¥æÁ…¨>tÀ7>j√Bæû åæ!`æ˘ëçæg“Ω|@ÅΩ’ÅÇ>ıGeΩ–Zª<7PÙæF >q∫«>=æˆtNøPdzºe†èæﬂ.Ææ67ºÜæ∏døR<Xæb2æèê<ˇ?V∫ß|[>b’IøTD>A÷‚=]µÈæN¿æÛ<øaCøî&Ω'¬û>≈áóøTÿƒ<?-Ö<£1¥=iXä>©!ÓΩ’Ûãæ‡:Gø|>(Pàø¶ã∫æRµ=íW> ¥¸ΩD-ø·Ÿâ>ı≥>pΩé>tÍ%æ˝Ù
+æé,oΩb„ æÊâÓ>ØÈÌΩÕß&>o⁄ø∑ÔÃºÓk
+?∫48>˝∏>y‰>)}P>2ŒølÍ>‡
+>Ä
+>*ö Bonnx::MatMul_26JÄŸ\›æ‹›-øß%Ææ5-ø4‹æ∫óy?‚Î<ø|o>¢	?Ω”æÀÄ™?w|•øÍÑKæqBøqò*øÓÀgøAuZøäà?ËÇ©?‹ŒE?B1ê?ï ÄøûEã?KΩ€∞løl?V‹îø<ßæß`øµ
+?=*?Óa!?ﬂ—?¬∏ øﬂ)»æ”í4øÑ-æ‹œ?c˜*øª_f=E?∫™&>7≈0>áMTø‹D›>e¥≤ø±ÙøXüDøêS? iæ©ËR>Ooø"Ÿ,æ+ÚK?Åè#ø}¸<>ëU8?¨ªj9gu„º¢Âg>SˇH?ÎoøÏù_ø∫,&ø"í[?é ±>À∂ç=3.øÙ7À>DJv?)€ø@P?¯Fe?√>ÛŒÊ>{ëkæF÷F?¬F9øÀCñæÏ˚˛ætÍ?Æ∑©?3 Óæ÷¿A?R∂?ø!≤>ôäp?`‘¸>ˇ§§> õ?b>Ë>N∂Í>¿
+,?“¥?
+m?‰Å?°nH?Œ∂ øHñáææGò?)πà?j¬æ‰d°?˛ë?Ò•?€?RæY∂{?1sÕΩãáèæ˚Y˚ºDRô?˙ø9æhuìΩÿù»æ;öf>ElÖ?eıø^¶®>t˛ê?ç+?}ªñ?≠ÅJ>ëk£?—væ≥Œø&n
+øÛ∂Å?”⁄·>™√Üøˆ{«æÜõ?ù≠í?¸I–æ©Õ$?îNù?8.?¥>«?ﬁ>Õqf?…Pƒæ&N;ûÚ¬æñ8?IX æÌNøÑ	øﬁf?¨ÇA?˝,øÍ ?3ãA?˛2‹ΩØ®æ	Ê<ãÂI?.$ëø—ØΩΩÁôrøÌæΩ?¿·>(ﬁÂ>ùH?;∞$ø√˙>»ŒΩµ@	øzÙF?hæH≥BΩ;‰ææ∞†>‡öH?·πÙ>&tøm?éz ?Òœk?÷Hc?zJøë~x?ïXàæ∂/)øãdÖ?ØHøeÙ£>É-øÓT1?ıQX?¯D`?æ ôæ†ñ∆?ú6?Ê;à?åbã?Dæπæg•?õËÑ>ÛQ∏æ˚ÿà?«y
+æk2Ü>[¬Üæˆﬂ>M„k?çµç?ﬂF==ig‰æ—ˇNøw≈
+øËõ‚æ¶<$‰øñs>}=L=] øô≈ô?≤QSæ’y¡ºâ¿5ø	á–æUê’æPºéæõ^J?¿›à?∫‚>Üáã?∫“	øÀFF?·£ûΩ.Løæä¯?ﬂÉéΩæª¨∫¸Ωæ∆µáΩÈ‡…=a=?Yñæzúã?)? -7?˙J?◊*ŒæLÿü?À®À=4ÂÀæá™í?Í>êæÂ€òæΩø≈?Q›‘>°4Ü?∂°øÇa=RG><A« >ûﬂz>õ∆Zø∂ŒñΩ°ÌâøìVtø|Ë?l?øOø÷zúøVœ}æıÊÌ=Ëº;=√ﬂ?êG5?zY>≤à>}hú?Ä©€>‡Å€>Ú€ñ>¡Xø>p‚t?<D§>ºüÙæwdÁ>“¢>÷?Gƒ’>tkÂæÏÆö?ˇÑ?V j?©áï?ÿ &øËbw?v<öøø¶›{?sƒÏæ»1ΩçÍ¬æÒyç?&>e?Î‹>?ólø¨C?‘Ö?ä˚∞?tF≤?)ø"X∏?¡>@øœ(ø G≥?óπ
+øÛø>:À&øèB≈?Æ"∫?NÆ∂?ÉjøL?hs◊>È(h?SH?¸ìø›->?¶Õè=ı¿“æ’	ô>
+ÌøO9Í>„Ùæ◊Ùî>_(D?IÖ8?ﬂB˛æ<ÁÈ?àîW?˛∆ø?æΩ?GMhøòù?/—0ø3HøPÉÑ?:—èø∏ ù; FøJÑz?Äb‚?@°?Iûø´¨Ê>€ ?ËMøæÕf◊>∫÷∫øñ7?!ƒvøEœ¢ør?éîòæWõ+øxÆõø˜ﬂP>Ë¢>>m‰k>< æ¬!?KQK?ﬁÒD?πC?ØæP›?∂Tîæ„ãøæløÜ?5ÅÜ>•Å‹æøIÁæoH‰>˘Tñ>-≠Y?Q€\ø;é—>èS>vP™ºì« ?˙eYøÛ¶gΩkùWø	_TøÙ`∫>ì™ê>µ˝øåæ;ø–©eæÌ7›>DΩ>ÅÊı>^z‘ærp	øj∑xøÜì`æVU?∆‚>øS
+ı>˚…?ø	KøtF>Ò9”æwDÓ>»ø¸æóK1ø.6ø-5ø)D¡?ê@(?dˇΩ?‡ª?ëÌAø°ƒ?w√ø<V>ø
+Œ≠?˘Ïøpè>ˆ¯ø)æ˜>\êÅ?{˝∑?Ê¡‹>&]Ö?≠–˙>ú®5>Æ“R?ÓÈ ?ë»>¢ˆ”=b–>ï´0?®=xfJ>„?"9Ã>ú´?µ∫?üj]?Ç#2>ÁﬁO>ã!øÜó6>ú˜?M•˘æ¶ﬂ∂>ˇzn?ÑPs<u	ˆæïÉ>f?AbøÊ_ˇæﬁÄ'ø˜s?%"_æ$	æ*m+ø3∫æÅÃ-?ã¶Bø$†ÒΩu&?Ús…æ†÷;?◊mø∂_¸>íÃEøÄä&øP>øübj?Â?	ºu®&>?kÃæsWÊΩˆJt?„¢ ø>Ÿ?A,P?ÜH#æò›Ü?V‚>¬ˇR?Ø9ÇøÓ:vøFÇ›æ√:æ>	¥à?ﬂ´ñ=‚ıÁ>ZÑ?íÏπ>:-ﬁ>òVÜ>jXä>∑:Ü?]>Äs¯>5ª>◊' ?“§>0•.?*öBonnx::MatMul_27JÄÉΩ◊øA©o?†AA?sÃ*?U/∂ø)åäø˙°ø≠Ê)øñø09 >ÄÁtΩURaæCˇæ≥æ8ÏíΩ$c
+?ßP¡?ﬁ®ˇ=ªò=V∑Ä>˜¿?%ﬂº?Bß?Gƒ°>Øg£?¡<å<¿;ÉΩG«"æÔGº÷4>¸y6æ{’√>h¡ï?t'	øvø÷›`øπì?©–i?Í~ï?†ˇG?é5Ñ?ä^‘Ω"›<˙2ë<åmî<‡Û^Ω†zæΩëø›¢©>Îkøû3øxG)ø=K»>ˇèµ>vÈ≈>´´>Vñ¶>M%>@·=é*ŒΩZ9(æ¸∞læ‡≤>Àb?øØ?ü?ê!
+?HÔ>–?Aµ?∫qô?ã‰ß?JDã>.;ú?˚úæôπ<6º·Ωå„™ΩÑ¶"æäyAæâ˚ƒ>[øøƒï?÷:?On[?ZV›ø
+€πø±3•ø§9;øu®îø†£Ωù¥>êëæN–=òﬂ!ΩåÇ/æ‘^?Gü=OúÜø<Åø0{∫øfW>82pºá|«Ω÷Â„<˛LΩf∂º`ßæwüË=—ŸΩú∑ŸΩ·’Ω-KøñÑ€æ⁄8?ƒ„˙>‘/?(˜“æÆ˚Úæ|† ø˝ßΩì”	æHÀ=0GG=)ckæ1ÑIΩ†ExΩÄ%jºúÑ,?oùÀø¥ÉM?ò;?Ug?|´©øÂ·ÖøÇ§ø÷E¿æäÂöø¿A∑=*≠ìΩ<MRæô‰§=6æT¯ﬂ=‡?aõê?î%?À˝¯>Œy?wÊÖ?7:?§(Å?£d?®›ä?√YyæD÷ÑΩ<≈◊∫∏'™=xÜ¬ΩÙ3{æ&Íı=7ÚÇøùHæ?≈ö?P±?éëZøo„6ø0?øàâæw;&ø[NÑæ]‚<±*ª“ΩSΩŒ÷ºp˝Ω)0î?moΩ“2?ÏoÊ>≠Â@?k·<]Aæ´'næµÙU>@+¶Ω9Ÿ~<‰"=ú4‡=©J\=\fP>`¢=¡H8?‹ı†øcÕb?*≈?IX?È+¢øø(îøªlfø©¶æÍ<nød‹ìΩOlΩÛ»æà¸Öæjg#>“‚æY%S?’=âæ“¿÷NÀøã-Èø…êæ‰Omæb+ææ#‡>”ÕûΩ÷·*ΩÑ⁄o>Ÿ:(=K¡ﬂ=Ä+•ªÙdΩËÙ°øV?&Wtøô‰Døòíüø6Ag?ëN?ñcH?È±?ıW?_∂ñæñæŒ˜Ωwó[9ü=&>{x(øHrT?joÅø‡|jø¬ÄGøê/f?E?ë—-?¸ÕP?‹ø>ôi;n<Sæ_ÊŒ=ÛG=7ÀΩ§JæPEø*öBonnx::MatMul_28JÄp¥°?-Û•øp˚¿·J@˘yÊø”Â›?"% ¿kÜ @0éπ?˜Ì®ø¨£?h‹∞ø]ø¨?fO∫øΩJC?WÅ:øF‹•?Ï(ãø\ÌÊΩja(>X>7Ÿ=»,<=ïpÀΩSªﬂ=D>¿@ºº0Ë=Ë√ë=ﬁd.æı†€øˆø´?Z
+in
+
+
+Pb
+out
+
+
+B

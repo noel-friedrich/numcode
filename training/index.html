@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NumCode Training</title>
+        <link rel="icon" type="image/x-icon" href="../assets/images/logo.svg">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand">
+    </head>
+
+    <body>
+
+        <header>
+            <img src="../assets/images/logo.svg" alt="Logo" class="logo">
+            <h1><a href="../index.html">NumCode</a></h1>
+        </header>
+
+        <main>
+
+            <h1>
+                Training
+            </h1>
+
+            <p>
+                Thank you for coming here! This is the place to enter 'random' numbers to train my pattern-recognizing
+                system. You may not use any aid such as dice or RNGs (Random Number Generators). Try to think of them yourself!
+            </p>
+
+            <p>
+                Please enter an 8-digit number below. If you're finished, hit the "Send" button. I'm thankful for every number
+                that you enter! There may also be a surprise waiting for those who send over 100 numbers. You have submitted
+                <output id="countoutput">-</output> number(s) so far.
+            </p>
+
+            <p>
+                Example numbers to send: 1234-5678, 9173-9365, 8464-6013, 0201-8552. Please don't just repeat digits.
+            </p>
+
+            <p class="success" id="successoutput"></p>
+
+            <form action="../api/send.php">
+                <input type="text" id="visible_numinput" class="numinput" readonly value="- - - - - - - -">
+                <input type="hidden" id="numinput" name="num"">
+                <p class="error" id="erroroutput">Please enter a number.</p>
+                <div class="numpad-container">
+                    <button type="button" onclick="window.click(this.textContent)">1</button>
+                    <button type="button" onclick="window.click(this.textContent)">2</button>
+                    <button type="button" onclick="window.click(this.textContent)">3</button>
+                    <button type="button" onclick="window.click(this.textContent)">4</button>
+                    <button type="button" onclick="window.click(this.textContent)">5</button>
+                    <button type="button" onclick="window.click(this.textContent)">6</button>
+                    <button type="button" onclick="window.click(this.textContent)">7</button>
+                    <button type="button" onclick="window.click(this.textContent)">8</button>
+                    <button type="button" onclick="window.click(this.textContent)">9</button>
+                    <button type="button" onclick="window.resetInput()">/</button>
+                    <button type="button" onclick="window.click(this.textContent)">0</button>
+                    <button type="button" onclick="window.undoInput()">&lt;</button>
+                </div>
+                <input type="submit" value="Send" id="sendbutton" disabled>
+            </form>
+
+            <script>
+                const numInput = document.getElementById("numinput")
+                const visibleNumInput = document.getElementById("visible_numinput")
+                const sendButton = document.getElementById("sendbutton")
+                const errorOutput = document.getElementById("erroroutput")
+                const successOutput = document.getElementById("successoutput")
+                const countOutput = document.getElementById("countoutput")
+
+                function click(n) {
+                    if (numInput.value.length >= 8) {
+                        return
+                    }
+
+                    let number = parseInt(n)
+                    numInput.value += number
+                    numInput.oninput()
+                }
+
+                function undoInput() {
+                    numInput.value = numInput.value.slice(0, numInput.value.length - 1)
+                    numInput.oninput()
+                }
+
+                function resetInput() {
+                    numInput.value = ""
+                    numInput.oninput()
+                }
+
+                function updateVisibleInput() {
+                    let numbers = Array.from(numInput.value)
+                    let out = ""
+                    for (let i = 0; i < 8; i++) {
+                        out += numbers[i] ?? "-"
+                        if (i != 7) {
+                            out += " "
+                        }
+                    }
+                    visibleNumInput.value = out
+                }
+
+                numInput.oninput = () => {
+                    const setError = (msg, correct=false) => {
+                        errorOutput.textContent = msg
+                        sendButton.disabled = !correct
+                        updateVisibleInput()
+                    }
+
+                    const num = numInput.value.toString()
+
+                    if (!num)
+                        return setError("Please enter a number")
+
+                    if (!/^[0-9]*$/.test(num))
+                        return setError("Please only use numbers (0-9)")
+
+                    if (num.length < 8 || num.length > 8)
+                        return setError("Please enter a number.")
+
+                    if (/^(?:0+|1+|2+|3+|4+|5+|6+|7+|8+|9+)$/.test(num))
+                        return setError("The number must not consistent of only one number")
+
+                    if (/^(?:12345678|87654321|09876543|00001111|12341234)$/.test(num))
+                        return setError("Please be more creative!")
+
+                    return setError("Press Send to submit", true)
+                }
+
+                if (new URLSearchParams(location.search).get("thanks") !== null) {
+                    successOutput.textContent = "Thank you for submitting a number!"
+                    setTimeout(() => scrollTo(0, 99999), 50)
+                }
+
+                const numString = localStorage.getItem("numbers_submitted") ?? "0"
+                const numbersSoFar = parseInt(numString, 10) || 0
+
+                countOutput.textContent = numbersSoFar
+
+                if (numbersSoFar == 100) {
+                    successOutput.textContent = "You submitted 100 numbers! Tell Noel the secret code 'I LOVE U' to receive the prize. There may be some new prize for submitting 200 numbers ;)"
+                }
+
+                if (numbersSoFar == 200) {
+                    successOutput.textContent = "You submitted 200 numbers! Tell Noel the secret code 'HI NOEL WHTAP' to receive the prize. There may be some new prize for submitting 300 numbers ;)"
+                }
+
+                if (numbersSoFar == 300) {
+                    successOutput.textContent = "You submitted 300 numbers! Tell Noel the secret code 'DATE?' to receive the prize. There may be some new prize for submitting 400 numbers ;)"
+                }
+
+                if (numbersSoFar == 400) {
+                    successOutput.textContent = "You submitted 400 numbers! Tell Noel the secret code 'WANNA COME OVER?' to receive the prize. There may be some new prize for submitting 500 numbers ;)"
+                }
+
+                if (numbersSoFar == 500) {
+                    successOutput.textContent = "You submitted 500 numbers! Tell Noel the secret code 'POGGERS' to receive the prize. This is the maximum prize. Congrats!"
+                }
+
+                sendButton.onclick = () => {
+                    let numString = localStorage.getItem("numbers_submitted") ?? "0"
+                    let numbersSoFar = parseInt(numString, 10) || 0
+                    localStorage.setItem(
+                        "numbers_submitted",
+                        numbersSoFar + 1
+                    )
+                }
+
+            </script>
+
+            <p>
+                If you have any questions regarding this website, feel free to email me <a href="mailto:noel.friedrich@outlook.de">here</a>.
+            </p>
+
+        </main>
+
+        <footer>
+            Made by <a href="https://www.noel-friedrich.de/">Noel Friedrich</a><div style="width:1em;display:inline-block">;</div>
+            <a href="http://www.noel-friedrich.de/blobber/legal/impressum">Impressum</a>
+            <a href="http://www.noel-friedrich.de/blobber/legal/data-policy">Privacy</a>
+        </footer>
+        
+    </body>
+
+</html>

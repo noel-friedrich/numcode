@@ -1,0 +1,25 @@
+<html>
+    <head> </head>
+
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+
+        <script>
+            let session = undefined
+
+            async function main() {
+                session = new onnx.InferenceSession({
+                    backendHint: "cpu"
+                })
+                await session.loadModel("../trained_network.onnx")
+                const outputMap = await session.run([
+                    new onnx.Tensor(Float32Array.from({length: 80}, () => Math.random() > 0.5 ? 1 : 0), "float32")
+                ])
+                console.log(Array.from(outputMap.get("out").data))
+            }
+
+            main()
+
+        </script>
+    </body>
+</html>
